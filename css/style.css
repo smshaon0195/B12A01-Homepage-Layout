@@ -1,0 +1,276 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+/* google font- Font Name: Raleway */
+.inter-bodyFont {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+body{
+    background-color: #F5F8FF;
+
+}
+/* Display Max Width 1140px */
+.max_width{
+    max-width: 1140px;
+    margin: auto;
+    
+}
+/* header Section Start */
+.header_section{
+    background-image: url(../Assets/Hero-bg.png);
+    height: 450px;
+    color: #252432;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.naveMenu{
+    height: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.naveMenu a{
+    text-decoration: none;
+    color: white;
+}
+.nave_logo img{
+    width: 70px;
+}
+.nave_benner{
+    width: 600px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.nave_benner h1{
+    font-size: 45px;
+}
+.bennerBtn button{
+    width: auto;
+    margin-top: 20px;
+}
+.bennerBtn a{
+    text-decoration: none;
+    color: white;
+    padding: 5px ;
+}
+/* Button Design */
+.btn_Color_width{
+    background-color: #4E47FF;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding-right: 13px;
+    padding-left: 13px;
+    color:white;
+}
+
+
+/* Img and Text Middle Section */
+.text_img_Section{
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    
+}
+.left_section{
+    width: 330px ;
+}
+.left_section p{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.left_section a{
+    text-decoration: none;
+    color: white;
+}
+.right_section{
+    width: 330px ;
+}
+#right_Img{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 20px;
+}
+/* productive_user_section */
+.productive_user_section{
+    background-color: #E4E6FF;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    margin-top: 70px;
+}
+.productive_user_div{
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    font-family: inter;
+}
+.productive_user_div h1{
+    display: block;
+    font-size: 28px;
+}
+.user{
+    width: 200px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.user_background{
+    background-color: #FAFCFF;
+}
+.user h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.userCountNumber{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+/* productive_user_section 2 */
+.productive_user_section2{
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    margin-top: 70px;
+}
+#star{
+    width: 15px;
+}
+.userRating{
+     display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+.userReview{
+    display: flex;
+    margin-top: 20px;
+    color: #757575;
+}
+.ratingComment{
+    font-size: 12px;
+}
+.reviewPhoto img{
+    border-radius: 50%;
+}
+.reviewName{
+    margin-left: 8px;
+}
+/* rady to focus section in the maddle section */
+.focus_Section{
+    text-align: center;
+    background-color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+.focus_Section a{
+    text-decoration: none;
+    color: white;
+    
+}
+.focus_Section button{
+    margin-top: 15px;
+}
+.focus_hedding h1{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+.focusImg{
+    width: 750px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+/* lets_get_in_Tuch_Section start */
+.lets_get_in_Tuch_Section{
+    height: 500px;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.div_align{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftSide_Heading h1{
+    font-size: 60px;
+}
+.leftSide_Heading{
+    width: 30%;
+    
+}
+
+.rightSide_From{
+    width: 30%;
+}
+.rightSide_From .form_input{
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 0.9px solid rgba(0, 0, 0, 0.144);
+    margin-bottom: 10px;
+}
+.rightSide_From textarea{
+    height: 80px;
+}
+
+/* Footer Section start */
+.footer_div {
+    background-color: #FFFFFF;
+    height: 300px;
+    align-items: center;
+    display: flex;
+}
+.footerLogoText{
+    align-items: center;
+    width: 400px;
+    text-align: center;
+    color: #757575;
+}
+.footerLogoText img{
+    width: 90px;
+}
+
+.footerLink ul, li, a{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    color: #757575;
+    margin-top: 5px;
+
+}
+
+/* Hover Section */
+.btn_Color_width:hover{
+    transform:scale(1.1);
+    background-color: rgb(233, 47, 233);
+    transition: 0.6s;
+    transform: rotate(360deg);
+}
+.Mylogo:hover{
+    transform: rotate(360deg);
+    transform: scale(1.2);
+    cursor: progress;
+}
+a:hover{
+    transform: scale(1.1);
+}
