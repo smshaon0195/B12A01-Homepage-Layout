@@ -22,7 +22,7 @@ body{
 }
 /* header Section Start */
 .header_section{
-    background-image: url(./assets/Hero-bg.png);
+    background-image: url(./assets/hero-bg.png);
     height: 450px;
     color: #252432;
     background-size: cover;
