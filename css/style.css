@@ -274,3 +274,130 @@ body{
 a:hover{
     transform: scale(1.1);
 }
+
+/* Media quary section */
+
+@media screen and (max-width: 550px) {
+    .header_section{
+        height: 280px;
+    }
+    .naveMenu {
+        flex-direction: row;
+        width: 80%;
+        height: 100px;
+    }
+    .nave_benner {
+        width: 95%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px
+    }
+    .nave_benner h1{
+        font-size: 25px;
+        color: green;
+    }
+     .text_img_Section {
+        flex-direction: column;
+        text-align: center;
+        margin-top:10px;
+        margin-bottom: 10px;
+        height: 323px;
+    }
+    .left_section{
+        margin-bottom: 10px;
+    }
+    .right_section{
+        width: 50%;
+        
+    }
+    .productive_user_section {
+        width: 90%;
+        width: 90%;
+        height: 200px;
+        margin-top: 20px;
+    }
+    .productive_user_div{
+        flex-direction: column;
+        width: 90%;
+    }
+    .userCountNumber {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    padding: 0;
+    }
+    .user{
+        width: auto;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .user h1{
+        font-size: 30px;
+    }
+    .productive_user_section2 {
+        height: auto;
+        border-radius: 6px;
+        display: flex;
+        margin-top: 17px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        }
+    .userRating{
+        gap: 10px;
+    }
+    .userRating h4{
+        font-size: 11px;
+    }
+    .userRating small{
+        font-size: 10px;
+        line-height: 0px;
+    }
+    .reviewName h5{
+        font-size: 9px;
+    }
+    .focus_Section {
+        width: 90%;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .focus_hedding h1{
+        font-size: 20px;
+    }
+    .focusImg{
+        width: 90%;
+        margin-top: 17px;
+        border-radius: 20px;
+    }
+    .lets_get_in_Tuch_Section {
+        height: auto;
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .div_align {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;  
+    }  
+    .leftSide_Heading {
+        width: 90%;
+    }
+    .leftSide_Heading h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .rightSide_From {
+        width: 90%;
+    }
+}
